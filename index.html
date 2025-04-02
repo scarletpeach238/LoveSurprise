@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Someone Special 💖</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <audio id="bg-music" loop>
+        <source src="love-song.mp3" type="audio/mp3">
+    </audio>
+
+    <div class="container">
+        <h1>💖 Hey <span id="name-placeholder">You</span>! 💖</h1>
+        <p>You are amazing, and I just wanted to remind you how special you are. 🥰</p>
+        <p>Life is brighter because of you! Keep being **you**, because you're perfect just the way you are. 🌟</p>
+
+        <input type="text" id="name-input" placeholder="Enter your name" />
+        <button onclick="startSurprise()">Click for a Surprise 🎁</button>
+
+        <p id="surprise-message" class="hidden">💗 You are loved more than you know! 💗</p>
+
+        <canvas id="fireworks"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
